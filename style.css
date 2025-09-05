@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff5353;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgb(231, 231, 231);
+    padding: 100px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px #ffa3a31a;
+    text-align: center;
+    width: 300px;
+}
+
+.card img {
+    border-radius: 75%;
+    width: 150px;
+    margin-bottom: 80px;
+}
+
+.card h1 {
+    font-size: 50px;
+    color: #ff0000;
+    margin: 10px;
+}
+
+.card p {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.buttons a {
+    display: block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #ff0404;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+
+.facebook{
+    background-color: #0654fd;
+}
+.facebook:hover {
+    background-color: #003bb3;
+}   
